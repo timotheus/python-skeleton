@@ -1,39 +1,20 @@
-# MTLT - Make This Like That
+# python-skeleton
 
-_MTLT is a parser for firewall config files._
+_This skeleton for Django and python CLI projects. It provides a directory structure for projects during development and deployment._
 
-## Installation
+## How to create an project using this skeleton
 
 ```bash
-> git clone git@github.corp.ebay.com:NetDev/MTLT.git
 > virtualenv venv36 -p <path to python36>
 > source venv36/bin/activate
-> pip install -r requirements.txt
-> python setup.py install
+> pip install "Django >= 1.9, < 1.10"
+> django-admin startproject myproject --template=https://github.corp.ebay.com/NetDev/python-skeleton/archive/master.zip
 ```
 
-## Running Tests
+## Running the project
 
-```bash
-> git clone git@github.corp.ebay.com:NetDev/MTLT.git
-> virtualenv venv36 -p <path to python36>
-> source venv36/bin/activate
-> pip install -r requirements.txt
-> tox
-```
+TBD
 
-## Basic Usage
+## Authors
 
-Most execution is done via the mtlt driver script.
-
-```bash
-> mtlt <this> <that> --ticket=<SECUR #>
-```
-
-## Other Usage
-
-```bash
-> python mtlt/parser.py --file=conf/ais-hd-02.lvs.netsec.ebay.com find-objects-w-child '' '10.29.66.0'
-> python mtlt/parser.py --file=conf/ais-hd-02.lvs.netsec.ebay.com find-objects-w-child '' '10.29.*.0'
-> python mtlt/parser.py --file=conf/ais-hd-02.lvs.netsec.ebay.com find-objects '10.241.15.22'
-```
+- Tim Keefer <tkeefer@ebay.com>
