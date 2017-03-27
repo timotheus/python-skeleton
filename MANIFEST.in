@@ -1,0 +1,6 @@
+recursive-include {{ project_name }} *
+global-exclude {{ project_name }} *.pyc
+recursive-include bin *
+include README.md
+include tox.ini
+include requirements.txt

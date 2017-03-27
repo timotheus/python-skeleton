@@ -1,0 +1,3 @@
+from .base import *
+
+# add custom test settings here...
