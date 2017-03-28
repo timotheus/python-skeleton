@@ -8,7 +8,7 @@ _This skeleton for Django and python CLI projects. It provides a directory struc
 > virtualenv venv36 -p <path to python36>
 > source venv36/bin/activate
 > pip install "Django >= 1.9, < 1.10"
-> django-admin startproject myproject --template=https://github.corp.ebay.com/NetDev/python-skeleton/archive/master.zip
+> django-admin startproject myproject --template=https://github.corp.ebay.com/NetDev/python-skeleton/archive/master.zip --extension=py,ini,in
 ```
 
 ## Running the project
