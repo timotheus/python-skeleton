@@ -4,16 +4,23 @@ _This skeleton for Django and python CLI projects. It provides a directory struc
 
 ## How to create an project using this skeleton
 
+_Make sure you have django >= 1.9 installed._
+
 ```bash
-> virtualenv venv36 -p <path to python36>
-> source venv36/bin/activate
-> pip install "Django >= 1.9, < 1.10"
 > django-admin startproject myproject --template=https://github.corp.ebay.com/NetDev/python-skeleton/archive/master.zip --extension=py,ini,in
 ```
 
 ## Running the project
 
-TBD
+_Once you've successfully started the Django project using the skeleton template, you'll need create the virtualenv and install a few python dependancies._
+
+```bash
+> cd myproject
+> virtualenv venv36 -p <path to python36>
+> source venv36/bin/activate
+> pip install -r requirements.txt
+> python manage.py runserver
+```
 
 ## Authors
 
