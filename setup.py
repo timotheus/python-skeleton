@@ -9,7 +9,7 @@ setup(
     author="TODO: Add author",
     author_email="TODO: Add author email",
     url="",
-    scripts=['bin/*'],
+    scripts=['bin/{{ project_name }}'],
     packages=find_packages(),
     provides=['{{ project_name }}'],
     install_requires=[line.strip() for line in open('requirements.txt', 'r')],
