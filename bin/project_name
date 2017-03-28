@@ -10,7 +10,7 @@ if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
 
     prs = argparse.ArgumentParser()
-    prs.add_argument('sample', type=str)
+    # prs.add_argument('sample', type=str)
     args = prs.parse_args()
 
     # insert code that calls the back-end code
