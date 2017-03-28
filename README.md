@@ -4,7 +4,7 @@ _This skeleton for Django and python CLI projects. It provides a directory struc
 
 ## How to create an project using this skeleton
 
-_Make sure you have django >= 1.9 installed._
+_Make sure you have Django >= 1.9 installed._
 
 ```bash
 > django-admin startproject myproject --template=https://github.corp.ebay.com/NetDev/python-skeleton/archive/master.zip --extension=py,ini,in
@@ -12,7 +12,7 @@ _Make sure you have django >= 1.9 installed._
 
 ## Running the project
 
-_Once you've successfully started the Django project using the skeleton template, you'll need create the virtualenv and install a few python dependancies._
+_Once you've successfully started the Django project using the skeleton template, you'll need create the virtualenv and install a few Python dependancies._
 
 ```bash
 > cd myproject
