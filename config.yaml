@@ -1,2 +1,2 @@
 app_config:
-  SECRET_KEY: at@j)1oi&4)ga9t4s2!isqcrhk!b4!s$)0ob5
+  SECRET_KEY: {{ secret_key }}
