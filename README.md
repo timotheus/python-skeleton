@@ -7,7 +7,7 @@ _This skeleton for Django and python CLI projects. It provides a directory struc
 _Make sure you have Django >= 1.9 installed._
 
 ```bash
-> django-admin startproject myproject --template=https://github.corp.ebay.com/NetDev/python-skeleton/archive/master.zip --extension=py,ini,in
+> django-admin startproject myproject --template=https://github.com/timotheus/python-skeleton/archive/master.zip --extension=py,ini,in
 ```
 
 ## Running the project
